@@ -34,3 +34,9 @@ environments:
         schedule: "*/15 * * * *"
         command: drush cron
         service: cli
+
+container-registries:
+  etiya:
+    username: admin
+    password: guclu3Lu!x
+    url: etykub-lagoon-harbor.etiya.com
