@@ -87,7 +87,7 @@ services:
   mariadb:
     image: uselagoon/mariadb-10.5-drupal:latest
     labels:
-      lagoon.type: mariadb
+      lagoon.type: mariadb-single
       lando.type: mariadb-drupal
     ports:
       - "3306" # exposes the port 3306 with a random local port, find it with `docker-compose port mariadb 3306`
